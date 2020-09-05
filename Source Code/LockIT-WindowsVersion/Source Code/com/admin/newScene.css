@@ -1,0 +1,32 @@
+.button{
+    -fx-background-color: #020d2f;
+    -fx-text-fill:white;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-pref-height: 40;
+    -fx-pref-width: 300;
+    -fx-font-size: 20;
+
+}
+.button:hover{
+
+    -fx-background-color: #020d2f;
+    -fx-text-fill:white;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-pref-height: 40;
+    -fx-pref-width: 300;
+    -fx-font-size: 20;
+
+}
+.button:pressed{
+
+    -fx-background-color: #08258f;
+    -fx-text-fill:white;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-pref-height: 40;
+    -fx-pref-width: 300;
+    -fx-font-size: 20;
+
+}

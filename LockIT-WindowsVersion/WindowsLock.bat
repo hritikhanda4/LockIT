@@ -1,0 +1,1 @@
+start javaw.exe -jar "C:\LockIT-WindowsVersion\LockIT-WindowsLock.jar"

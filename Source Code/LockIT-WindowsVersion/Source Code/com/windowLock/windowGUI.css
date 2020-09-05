@@ -1,0 +1,34 @@
+.root{
+
+}
+.button{
+    -fx-background-color: black;
+    -fx-border-color: #1bff1b;
+    -fx-shape:'M 400 150 L 350 200 L 350 300 L 400 350 L 450 300 L 450 200 L 400 150';
+    -fx-text-fill: white;
+    -fx-border-width:4;
+    -fx-font-size: 30;
+    -fx-pref-height: 160;
+    -fx-pref-width: 128;
+
+}
+.button:hover{
+    -fx-background-color: #1bff1b;
+    -fx-border-color: #1bff1b;
+    -fx-shape:'M 400 150 L 350 200 L 350 300 L 400 350 L 450 300 L 450 200 L 400 150';
+    -fx-text-fill: #1bff1b;
+    -fx-border-width:4;
+    -fx-font-size: 30;
+    -fx-pref-height: 160;
+    -fx-pref-width: 128;
+}
+.button:pressed{
+    -fx-background-color:linear-gradient(black,#1bff1b);
+    -fx-border-color: #1bff1b;
+    -fx-shape:'M 400 150 L 350 200 L 350 300 L 400 350 L 450 300 L 450 200 L 400 150';
+    -fx-text-fill: #1bff1b;
+    -fx-border-width:4;
+    -fx-font-size: 30;
+    -fx-pref-height: 160;
+    -fx-pref-width: 128;
+}

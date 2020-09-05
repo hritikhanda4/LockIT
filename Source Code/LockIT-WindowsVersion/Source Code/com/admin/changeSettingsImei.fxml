@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.admin.changeSettingsImeiSceneController">
+    <children>
+        <AnchorPane prefHeight="461.0" prefWidth="728.0" style="-fx-background-color: black;">
+            <children>
+                <AnchorPane layoutX="235.0" prefHeight="538.0" prefWidth="529.0">
+                    <children>
+                        <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="-3.0" layoutY="515.0" prefHeight="26.0" prefWidth="536.0" text="\@Designed and Developed by Hritik Handa  " textFill="WHITE">
+                            <font>
+                                <Font size="13.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="259.0" layoutY="111.0" prefHeight="30.0" prefWidth="277.0" text="Enter your Mobile IMEI number :" textFill="WHITE">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="changeSettingsImeiPassword" layoutX="276.0" prefHeight="98.0" prefWidth="268.0" text="Enter your Backup Password :" textFill="WHITE">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="password" layoutX="284.0" layoutY="67.0" prefHeight="30.0" prefWidth="225.0" />
+                        <TextField fx:id="imei" layoutX="283.0" layoutY="149.0" prefHeight="26.0" prefWidth="226.0" />
+                        <Button fx:id="imeiLockBtn" alignment="CENTER" layoutX="296.0" layoutY="247.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="242.0" style="-fx-pref-width: 200;" stylesheets="@newScene.css" text="Change IMEI">
+                            <font>
+                                <Font size="14.0" />
+                            </font></Button>
+                        <Label layoutX="262.0" layoutY="189.0" text="Dial *#06# to get your IMEI number" textFill="WHITE">
+                            <font>
+                                <Font size="17.0" />
+                            </font>
+                        </Label>
+                  <Pane layoutX="1.0" layoutY="3.0" prefHeight="538.0" prefWidth="234.0" style="-fx-background-color: #020d2f;" stylesheets="@adminGUI.css">
+                     <children>
+                        <VBox layoutY="202.0" prefHeight="294.0" prefWidth="234.0">
+                           <children>
+                              <Button fx:id="changeSettingsChangePasswordBtn" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Change Password">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="changeSettingsChangeImeiBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Change IMEI number">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="changeSettingsChangePeriodBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="52.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Change Validity period">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </Pane>
+                    </children>
+                </AnchorPane>
+                <Pane prefHeight="538.0" prefWidth="241.0" style="-fx-background-color: #020d2f;" stylesheets="@adminGUI.css">
+                    <children>
+                        <VBox layoutY="192.0" prefHeight="346.0" prefWidth="234.0">
+                            <children>
+                                <Button fx:id="aboutBtn" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="About LockIT">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                                <Button fx:id="newBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Set New Settings">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                                <Button fx:id="changeBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="52.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Change Settings">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                                <Button fx:id="resetBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="95.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Reset All">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                        </VBox>
+                   <Circle layoutX="117.0" layoutY="84.0" radius="55.0" stroke="BLACK" strokeType="INSIDE">
+                       <fill>
+                           <LinearGradient endX="1.0" endY="1.0" startX="0.9351145474965336" startY="0.3511450672877654">
+                               <stops>
+                                   <Stop>
+                                       <color>
+                                           <Color />
+                                       </color>
+                                   </Stop>
+                                   <Stop offset="1.0">
+                                       <color>
+                                           <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                   </Stop>
+                               </stops>
+                           </LinearGradient>
+                       </fill>
+                   </Circle>
+                   <Label layoutX="79.0" layoutY="46.0" prefHeight="76.0" prefWidth="115.0" text="LockIT">
+                       <font>
+                           <Font size="28.0" />
+                       </font>
+                       <textFill>
+                           <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
+                               <stops>
+                                   <Stop>
+                                       <color>
+                                           <Color green="0.147502139210701" blue="1.0" />
+                                       </color>
+                                               </Stop>
+                                   <Stop offset="1.0">
+                                       <color>
+                                           <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                   </Stop>
+                               </stops>
+                           </LinearGradient>
+                       </textFill>
+                   </Label>
+                    </children></Pane>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

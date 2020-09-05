@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LockIT</string>
+    <string-array name="PeriodValidity">
+        <item>Select Validity Time</item>
+        <item>1 Minutes</item>
+        <item>3 Minutes</item>
+        <item>5 Minutes</item>
+        <item>7 Minutes</item>
+        <item>9 Minutes</item>
+        <item>10 Minutes</item>
+        <item>13 Minutes</item>
+        <item>15 Minutes</item>
+        <item>17 Minutes</item>
+        <item>20 Minutes</item>
+    </string-array>
+</resources>

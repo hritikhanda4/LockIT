@@ -1,0 +1,1 @@
+start javaw.exe -jar LockIT-AdminPanel.jar

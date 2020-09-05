@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.admin.aboutSceneController">
+    <children>
+        <AnchorPane prefHeight="514.0" prefWidth="770.0" style="-fx-background-color: black;">
+            <children>
+                <Pane prefHeight="538.0" prefWidth="233.0" style="-fx-background-color: #020d2f;" stylesheets="@adminGUI.css">
+                    <children>
+                        <VBox layoutX="24.0" layoutY="192.0" prefHeight="346.0" prefWidth="210.0">
+                            <children>
+                                <Button fx:id="aboutBtn" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="About LockIT">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                                <Button fx:id="newBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Set New Settings">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                                <Button fx:id="changeBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="52.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Change Settings">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                                <Button fx:id="resetBtn" contentDisplay="CENTER" layoutX="10.0" layoutY="95.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="235.0" text="Reset All">
+                                    <font>
+                                        <Font size="19.0" />
+                                    </font>
+                                </Button>
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" prefHeight="165.0" prefWidth="210.0" text="NOTE: You are required to install LockIT APK version for passcode generation" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                            </children>
+                        </VBox>
+                  <Circle layoutX="117.0" layoutY="84.0" radius="55.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="0.9351145474965336" startY="0.3511450672877654">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <Label layoutX="79.0" layoutY="46.0" prefHeight="76.0" prefWidth="115.0" text="LockIT">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color green="0.147502139210701" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                    </children></Pane>
+                    <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutY="512.0" prefHeight="26.0" prefWidth="770.0" text="\@Designed and Developed by Hritik Handa  " textFill="WHITE">
+                        <font>
+                            <Font size="13.0" />
+                        </font>
+                    </Label>
+            <ScrollPane hbarPolicy="NEVER" layoutX="242.0" layoutY="-7.0" prefHeight="518.0" prefWidth="527.0" style="-fx-background-color: black;" vbarPolicy="NEVER">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="601.0" prefWidth="534.0" style="-fx-background-color: black;">
+                     <children>
+                        <Label layoutX="8.0" layoutY="14.0" prefHeight="126.0" prefWidth="498.0" text="LockIT is a windows lock made to protect all your confidential data from unauthorized accesses. LockIT replaces the original window login lock and it is simple paradigm based on the generation of a unique OTP key every time based on four factors:" textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="4.0" layoutY="122.0" prefHeight="90.0" prefWidth="502.0" text="1. Password: This acts as a backup password, Also internally the unique key is dependent on this, can be of your choice, must be atleast 6 character long." textAlignment="JUSTIFY" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.28001534938812256" green="0.9394736886024475" blue="0.24530701339244843" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="191.0" prefHeight="156.0" prefWidth="499.0" text="2. IMEI Number: For every device their is a unique IMEI, LockIT uses this IMEI number and make generation of unique OTP key unique for every device i.e. The same deatils if filled in another device will not generate same OTP key, can be found by dialing *#06# in your keypad." textAlignment="JUSTIFY" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.99210524559021" green="0.14514131844043732" blue="0.14514131844043732" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="332.0" prefHeight="110.0" prefWidth="495.0" text="3. Period or Validity period: The time for which a particular OTP key will be valid is determined by  Validity Period.  Example: if you set Period=10 min, then for 5:00 to 5:10, a unique key will be generated, for 5:11 to 5:20 unique key will be generated." textAlignment="JUSTIFY" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.019999999552965164" green="0.9005408883094788" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="431.0" prefHeight="96.0" prefWidth="502.0" text="4. DateAndTime: LockIT generates unique OTP key dependent on date and time, So everytime a unique OTP key will be generated from LockIT APK." textAlignment="JUSTIFY" wrapText="true">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" green="0.8799712061882019" blue="0.019999999552965164" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

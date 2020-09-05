@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".OtpActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="45dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logoname">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Click On Generator Button"
+                android:inputType="number"
+                android:maxLength="16"
+                android:textSize="20dp"
+                android:id="@+id/numberOTP"
+                android:textColorLink="#000000"
+                />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginTop="70dp"
+            android:textSize="20dp"
+            android:text="Generator"
+            android:id="@+id/gButton"
+            android:textColor="#ffffff"
+
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginTop="70dp"
+            android:textSize="20dp"
+            android:text="Reset"
+            android:id="@+id/reset"
+            android:textColor="#ffffff"
+
+            >
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Developed By Abhinandan"
+            android:textColor="#000000"
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Designed and Managed by Hritik Handa"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

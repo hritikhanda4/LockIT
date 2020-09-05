@@ -1,0 +1,22 @@
+.root
+{
+    -fx-background-color: black;
+}
+
+.button{
+    -fx-background-color: #020d2f;
+    -fx-text-fill:white;
+    -fx-pref-height: 40;
+    -fx-pref-width: 300;
+}
+.button:hover{
+
+    -fx-pref-width: 300;
+   -fx-background-color: #020d2f;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+    -fx-text-fill:white;
+    -fx-pref-height: 40;
+    -fx-translate-x: 20;
+    -fx-translate-y: -5;
+}

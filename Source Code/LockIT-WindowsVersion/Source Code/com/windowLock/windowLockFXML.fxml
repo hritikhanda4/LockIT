@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane fx:controller="com.windowLock.Controller" id="stp" fx:id="stp" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1076.0" prefWidth="1980.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+
+   <children>
+   <ImageView fitHeight="1076.0" fitWidth="1980.0">
+         <image>
+            <Image url="@1.jpg" />
+         </image></ImageView>
+      <AnchorPane prefHeight="1076.0" prefWidth="1980.0" StackPane.alignment="CENTER">
+         <children>
+           <Label fx:id="mainLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" lineSpacing="2.0" prefHeight="90.0" prefWidth="1970.0" style="-fx-background-color: black; -fx-text-fill: white;" text=" LockIT-Windows Lock" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font size="47.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></Label>
+            <Label fx:id="warningLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-9.0" layoutY="79.0" lineSpacing="2.0" prefHeight="37.0" prefWidth="1970.0" style="-fx-background-color: black; -fx-border-color: lightgreen; -fx-border-radius: 20; -fx-text-fill: lightgreen; -fx-pref-width: 1800; -fx-pref-height: 80; -fx-translate-x: 80;" text="Do Not Press any keyboard key, Otherwise your PC will shutdown" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+             <Button fx:id="btn1" layoutX="30" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="1" />
+             <Button fx:id="btn2" layoutX="158" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="2" />
+             <Button fx:id="btn3" layoutX="286" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="3" />
+             <Button fx:id="btn4" layoutX="414" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="4" />
+             <Button fx:id="btn5" layoutX="542" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="5" />
+             <Button fx:id="btn6" layoutX="670" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="6" />
+             <Button fx:id="btn7" layoutX="798" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="7" />
+             <Button fx:id="btn8" layoutX="926" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="8" />
+             <Button fx:id="btn9" layoutX="1054" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="9" />
+             <Button fx:id="btn10" layoutX="1182" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="10" />
+             <Button fx:id="btn11" layoutX="1310" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="11" />
+             <Button fx:id="btn12" layoutX="1438" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="12" />
+             <Button fx:id="btn13" layoutX="1566" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="13" />
+             <Button fx:id="btn14" layoutX="1694" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="14" />
+             <Button fx:id="btn15" layoutX="1822" layoutY="176" mnemonicParsing="false" stylesheets="@windowGUI.css" text="15" />
+             <Button fx:id="btn16" layoutX="94.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="16" />
+             <Button fx:id="btn17" layoutX="222.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="17" />
+             <Button fx:id="btn18" layoutX="350.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="18" />
+             <Button fx:id="btn19" layoutX="478.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="19" />
+             <Button fx:id="btn20" layoutX="606.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="20" />
+             <Button fx:id="btn21" layoutX="734.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="21" />
+             <Button fx:id="btn22" layoutX="862.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="22" />
+             <Button fx:id="btn23" layoutX="990.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="23" />
+             <Button fx:id="btn24" layoutX="1118.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="24" />
+             <Button fx:id="btn25" layoutX="1246.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="25" />
+             <Button fx:id="btn26" layoutX="1374.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="26" />
+             <Button fx:id="btn27" layoutX="1502.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="27" />
+             <Button fx:id="btn28" layoutX="1630.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="28" />
+             <Button fx:id="btn29" layoutX="1758.0" layoutY="293" mnemonicParsing="false" stylesheets="@windowGUI.css" text="29" />
+             <Button fx:id="btn30" layoutX="30" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="30" />
+             <Button fx:id="btn31" layoutX="158" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="31" />
+             <Button fx:id="btn32" layoutX="286" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="32" />
+             <Button fx:id="btn33" layoutX="414" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="33" />
+             <Button fx:id="btn34" layoutX="542" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="34" />
+             <Button fx:id="btn35" layoutX="670" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="35" />
+             <Button fx:id="btn36" layoutX="798" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="36" />
+             <Button fx:id="btn37" layoutX="926" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="37" />
+             <Button fx:id="btn38" layoutX="1054" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="38" />
+             <Button fx:id="btn39" layoutX="1182" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="39" />
+             <Button fx:id="btn40" layoutX="1310" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="40" />
+             <Button fx:id="btn41" layoutX="1438" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="41" />
+             <Button fx:id="btn42" layoutX="1566" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="42" />
+             <Button fx:id="btn43" layoutX="1694" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="43" />
+             <Button fx:id="btn44" layoutX="1822" layoutY="410" mnemonicParsing="false" stylesheets="@windowGUI.css" text="44" />
+             <Button fx:id="btn45" layoutX="94.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="45" />
+             <Button fx:id="btn46" layoutX="222.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="46" />
+             <Button fx:id="btn47" layoutX="350.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="47" />
+             <Button fx:id="btn48" layoutX="478.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="48" />
+             <Button fx:id="btn49" layoutX="606.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="49" />
+             <Button fx:id="btn50" layoutX="734.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="50" />
+             <Button fx:id="btn51" layoutX="862.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="51" />
+             <Button fx:id="btn52" layoutX="990.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="52" />
+             <Button fx:id="btn53" layoutX="1118.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="53" />
+             <Button fx:id="btn54" layoutX="1246.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="54" />
+             <Button fx:id="btn55" layoutX="1374.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="55" />
+             <Button fx:id="btn56" layoutX="1502.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="56" />
+             <Button fx:id="btn57" layoutX="1630.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="57" />
+             <Button fx:id="btn58" layoutX="1758.0" layoutY="527" mnemonicParsing="false" stylesheets="@windowGUI.css" text="58" />
+             <Button fx:id="btn59" layoutX="30" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="59" />
+             <Button fx:id="btn60" layoutX="158" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="60" />
+             <Button fx:id="btn61" layoutX="286" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="61" />
+             <Button fx:id="btn62" layoutX="414" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="62" />
+             <Button fx:id="btn63" layoutX="542" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="63" />
+             <Button fx:id="btn64" layoutX="670" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="64" />
+             <Button fx:id="btn65" layoutX="798" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="65" />
+             <Button fx:id="btn66" layoutX="926" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="66" />
+             <Button fx:id="btn67" layoutX="1054" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="67" />
+             <Button fx:id="btn68" layoutX="1182" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="68" />
+             <Button fx:id="btn69" layoutX="1310" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="69" />
+             <Button fx:id="btn70" layoutX="1438" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="70" />
+             <Button fx:id="btn71" layoutX="1566" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="71" />
+             <Button fx:id="btn72" layoutX="1694" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="72" />
+             <Button fx:id="btn73" layoutX="1822" layoutY="644" mnemonicParsing="false" stylesheets="@windowGUI.css" text="73" />
+             <Button fx:id="btn74" layoutX="94.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="74" />
+             <Button fx:id="btn75" layoutX="222.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="75" />
+             <Button fx:id="btn76" layoutX="350.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="76" />
+             <Button fx:id="btn77" layoutX="478.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="77" />
+             <Button fx:id="btn78" layoutX="606.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="78" />
+             <Button fx:id="btn79" layoutX="734.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="79" />
+             <Button fx:id="btn80" layoutX="862.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="80" />
+             <Button fx:id="btn81" layoutX="990.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="81" />
+             <Button fx:id="btn82" layoutX="1118.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="82" />
+             <Button fx:id="btn83" layoutX="1246.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="83" />
+             <Button fx:id="btn84" layoutX="1374.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="84" />
+             <Button fx:id="btn85" layoutX="1502.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="85" />
+             <Button fx:id="btn86" layoutX="1630.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="86" />
+             <Button fx:id="btn87" layoutX="1758.0" layoutY="761" mnemonicParsing="false" stylesheets="@windowGUI.css" text="87" />
+             <Button fx:id="btn88" layoutX="30" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="88" />
+             <Button fx:id="btn89" layoutX="158" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="89" />
+             <Button fx:id="btn90" layoutX="286" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="90" />
+             <Button fx:id="btn91" layoutX="414" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="91" />
+             <Button fx:id="btn92" layoutX="542" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="92" />
+             <Button fx:id="btn93" layoutX="670" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="93" />
+             <Button fx:id="btn94" layoutX="798" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="94" />
+             <Button fx:id="btn95" layoutX="926" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="95" />
+             <Button fx:id="btn96" layoutX="1054" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="96" />
+             <Button fx:id="btn97" layoutX="1182" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="97" />
+             <Button fx:id="btn98" layoutX="1310" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="98" />
+             <Button fx:id="btn99" layoutX="1438" layoutY="878" mnemonicParsing="false" stylesheets="@windowGUI.css" text="99" />
+            <Label fx:id="mainLabel1" alignment="TOP_RIGHT" contentDisplay="CENTER" layoutX="30.0" layoutY="1043.0" lineSpacing="2.0" prefHeight="38.0" prefWidth="1952.0" style="-fx-background-color: black; -fx-text-fill: white;" text="\@Designed and Developed by Hritik Handa      " textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <padding>
+                  <Insets top="8.0" />
+               </padding>
+               
+            </Label>
+             <TextField fx:id="attempts" alignment="CENTER" editable="false"  layoutX="150.0" layoutY="20.0" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: black; -fx-text-fill:white;-fx-border-color: blue; -fx-border-radius: 300; -fx-border-width: 3;" text="3 Attempts Left">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="status" alignment="CENTER" editable="false" layoutX="1550.0" layoutY="15.0" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: black; -fx-text-fill:white;-fx-border-color: #1bff1b; -fx-border-radius: 300; -fx-border-width: 3;" text="Select Passcode">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="shutDown" cache="true" cacheHint="SPEED" depthTest="ENABLE" layoutX="1697.0" layoutY="944.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="73.0" prefWidth="128.0" style="-fx-background-color: #e52424; -fx-text-fill: white; -fx-border-color: black; -fx-font-size: 18; -fx-border-insets: 0; -fx-border-width: 3;" text="Shut Down " textFill="WHITE" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="1697.0" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="944.0">
+               <opaqueInsets>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></Button>
+
+				
+
+
+
+         </children>
+         <effect>
+            <Glow level="0.17" />
+         </effect>
+      </AnchorPane>
+   </children>
+</StackPane>
